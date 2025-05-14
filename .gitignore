@@ -30,3 +30,4 @@ bin/
 
 ## Mine ##
 .idea/
+*.iml
