@@ -11,5 +11,6 @@ public class Main {
         // System.out.println(Multiples.solution(10));
         // System.out.println(CyrillicLetters.isCyrillic('Д'));
         // System.out.println(Quarter.quarterOf(1));
+        System.out.println(ReduceButGrow.grow(new int[]{1,2,3}));
     }
 }
