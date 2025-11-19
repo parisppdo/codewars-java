@@ -14,7 +14,8 @@ public class Main {
         // System.out.println(CyrillicLetters.isCyrillic('Д'));
         // System.out.println(Quarter.quarterOf(1));
         // System.out.println(ReduceButGrow.grow(new int[]{1,2,3}));
-        int[] countByXresult = CountByX.countBy(2, 5);
-        System.out.println(Arrays.toString(countByXresult));
+        // int[] countByXresult = CountByX.countBy(2, 5);
+        // System.out.println(Arrays.toString(countByXresult));
+        System.out.println(BinaryAddition.binaryAddition(5, 9));
     }
 }
