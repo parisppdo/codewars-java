@@ -1,6 +1,8 @@
 import kyu6.*;
 import kyu7.*;
 import kyu8.*;
+import java.util.Arrays;
+
 
 public class Main {
     public static void main (String[] args) {
@@ -11,6 +13,8 @@ public class Main {
         // System.out.println(Multiples.solution(10));
         // System.out.println(CyrillicLetters.isCyrillic('Д'));
         // System.out.println(Quarter.quarterOf(1));
-        System.out.println(ReduceButGrow.grow(new int[]{1,2,3}));
+        // System.out.println(ReduceButGrow.grow(new int[]{1,2,3}));
+        int[] countByXresult = CountByX.countBy(2, 5);
+        System.out.println(Arrays.toString(countByXresult));
     }
 }
