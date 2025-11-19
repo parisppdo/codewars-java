@@ -9,7 +9,6 @@ public class BinaryAddition {
     public static String binaryAddition(int a, int b){
         int decimalSum = a + b;
         String binarySum = Integer.toBinaryString(decimalSum);
-        String result = '"' + binarySum + '"';
-        return result;
+        return binarySum;
     }
 }
