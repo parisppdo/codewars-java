@@ -16,6 +16,7 @@ public class Main {
         // System.out.println(ReduceButGrow.grow(new int[]{1,2,3}));
         // int[] countByXresult = CountByX.countBy(2, 5);
         // System.out.println(Arrays.toString(countByXresult));
-        System.out.println(BinaryAddition.binaryAddition(5, 9));
+        // System.out.println(BinaryAddition.binaryAddition(5, 9));
+        // System.out.println(SmallestIntegerFinder.findSmallestInt(new int[]{1, 2, 3, 4, 5, 2}));
     }
 }
