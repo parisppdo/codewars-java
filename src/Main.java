@@ -13,6 +13,6 @@ public class Main {
         // System.out.println(CyrillicLetters.isCyrillic('Д'));
         // System.out.println(Quarter.quarterOf(1));
         // System.out.println(ReduceButGrow.grow(new int[]{1,2,3}));
-        System.out.println(Arrays.toString(MagicMusicBox.magicMusicBox(new String[]{"DOWN","PLANE","AMIDST","REPTILE","SOFA","SOLAR","SILENCE","DOWN","MARKDOWN"})));
+        System.out.println(Arrays.toString(MagicMusicBox.magicMusicBox(new String[]{"PREDOMINATE", "INNOVATION", "MONTAIN", "ENDORSE", "MODIFY", "DOBLE", "RESIST", "EROSION", "REACTOR", "MODIFY", "MISTAKE", "BUFFALO", "ADORABLE", "COLLABORATE", "SOLUBLE", "SUNSHINE", "FACTOR", "CREDIBLE", "FOUNTAIN", "ENVIRONMENT", "KITCHEN", "CLARITY", "FISH", "ELABORATE", "MOUNTAIN", "ADORABLE", "RELATION", "REINFORCE", "RELATION", "INNOVATION", "CONSISTENT", "RIVER", "FAITHFUL", "REACTOR", "NIGHT", "PREDOMINATE", "BEDROOM", "PARK", "FOUNTAIN", "MONTAIN", "GATE", "MIRACLE", "DOCTOR", "ABSOLUTE", "CLARITY", "SISTER", "RELATE", "RELATE", "SINGULAR", "TREATMENT", "MINIMAL", "FISH", "MIRACLE", "HOUSE", "SOLUTION", "MONTAIN", "MINIMAL", "VISIBLE", "PREDOMINATE", "CREDIBLE", "ROW", "GARDEN", "DOCTOR", "BREEDER", "FACTORIAL", "KITCHEN", "PREPARE", "GATE", "FACTORIAL", "FREEDOM", "COMMIT", "RELATION", "PREDOMINATE", "SOLAR", "DOLLY", "GARDEN", "CONSOLIDATE", "VISIBLE", "HORIZON", "CREDIBLE", "KITCHEN", "CHAIR", "RESIST", "RESIST", "MINIMAL", "FAITHFUL", "NIGHT", "HELICOPTER", "HELICOPTER", "CLARITY", "SOLAR", "FOUNTAIN"})));
     }
 }

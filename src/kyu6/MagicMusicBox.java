@@ -4,6 +4,8 @@ package kyu6;
 // https://www.codewars.com/kata/6710e54f8ef071fe99eebd07
 
 import java.util.*;
+import java.util.List;
+
 
 public class MagicMusicBox {
     public static String[] magicMusicBox(String[] words) {
@@ -12,12 +14,15 @@ public class MagicMusicBox {
         Set<String> mentioned = new HashSet<>();
 
         int notesIndex = 0;
+        int wordIndex = 0;
 
         while (true) {
             String currentNote = notes[notesIndex % notes.length];
             boolean found = false;
 
-            for (String word : words) {
+            for (int i = wordIndex; i < words.length; i++) {
+                wordIndex++;
+                String word = words[i];
                 if (mentioned.contains(word)) {
                     continue;
                 }
@@ -30,6 +35,22 @@ public class MagicMusicBox {
                     break;
                 }
             }
+
+            if (wordIndex >= (words.length)) {
+                List<String> checkWords = new ArrayList<>(Arrays.asList(words));
+                checkWords.removeAll(result);
+                for (String checkWord : checkWords) {
+                    if (checkWord.contains(currentNote)) {
+                        found = true;
+                        break;
+                    }
+                }
+            }
+
+            if (wordIndex >= (words.length)) {
+                wordIndex = 0;
+            }
+
             if (found == false) {
                 break;
             }
